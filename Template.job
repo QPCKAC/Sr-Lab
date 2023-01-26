@@ -1,0 +1,16 @@
+SET_DETECTOR 0001
+SET_PRESET_CLEAR
+SET_PRESET_LIVE 180
+LOOP 5
+CLEAR
+START
+WAIT
+FILL_BUFFER
+CLEAR
+START
+SET_BUFFER
+DESCRIBE_SAMPLE "This is sample ???."
+SAVE "C:\Users\Jr and Sr Lab\Desktop\Xavier_Gemma\srlab\Compton\1-19-23\Background\Background???.SPE"
+RUN "C:\Users\Jr and Sr Lab\Desktop\Xavier_Gemma\srlab\Compton\gitdata.bat"
+SET_DETECTOR 0001
+END_LOOP
