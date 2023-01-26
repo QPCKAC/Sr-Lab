@@ -1,6 +1,6 @@
 SET_DETECTOR 0002
 SET_PRESET_CLEAR
-SET_PRESET_LIVE 60
+SET_PRESET_LIVE 10
 LOOP 1
 CLEAR
 START
@@ -10,7 +10,7 @@ CLEAR
 START
 SET_BUFFER
 DESCRIBE_SAMPLE "This is sample ???."
-SAVE "C:\Users\User\Desktop\Sr-Lab\Sample???.SPE"
+SAVE "C:\Users\User\Desktop\Sr-Lab\1-26-23\Sample???.SPE"
 RUN "C:\Users\User\Desktop\Sr-Lab\gitdata.bat"
 SET_DETECTOR 0002
 END_LOOP
