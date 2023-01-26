@@ -1,7 +1,7 @@
-SET_DETECTOR 0001
+SET_DETECTOR 0002
 SET_PRESET_CLEAR
-SET_PRESET_LIVE 180
-LOOP 5
+SET_PRESET_LIVE 60
+LOOP 1
 CLEAR
 START
 WAIT
@@ -10,7 +10,7 @@ CLEAR
 START
 SET_BUFFER
 DESCRIBE_SAMPLE "This is sample ???."
-SAVE "C:\Users\Jr and Sr Lab\Desktop\Xavier_Gemma\srlab\Compton\1-19-23\Background\Background???.SPE"
-RUN "C:\Users\Jr and Sr Lab\Desktop\Xavier_Gemma\srlab\Compton\gitdata.bat"
-SET_DETECTOR 0001
+SAVE "C:\Users\User\Desktop\Sr-Lab\Sample???.SPE"
+RUN "C:\Users\User\Desktop\Sr-Lab\gitdata.bat"
+SET_DETECTOR 0002
 END_LOOP
